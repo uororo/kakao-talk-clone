@@ -14,13 +14,10 @@
 @import "screens/friends.css";
 @import "screens/find.css";
 
-@font-face {
-    font-family: "sf pro";
-    src: url('E:/Github-Desktop/kakao-talk-clone/KOKOA-TALK/SF-Pro.ttf') format('truetype');
-}
+/* font */
 body {
     color: #2e363e;
-    font-family: "sf pro";
+    font-family: 'Inter', sans-serif;
     height: 1000vh;
 }
 .main-screen {
