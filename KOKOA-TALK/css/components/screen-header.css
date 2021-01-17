@@ -2,9 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 25px;
-    opacity: 0.9;
+    padding: 0px 25px;
+    padding-top: 45px;
+    padding-bottom: 15px;
     color: black;
+    margin-bottom: 5px;
 }
 .screen-header__title {
     font-size: 30px;
@@ -12,4 +14,16 @@
 }
 .screen-header__icons span {
     margin-left: 25px;
+}
+.screen-header__cog {
+    position: absolute;
+    right: 21px;
+    top: 43px;
+}
+.screen-fixer {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }

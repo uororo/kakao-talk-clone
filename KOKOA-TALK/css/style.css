@@ -1,17 +1,36 @@
+/* Core Css */
 @import "reset.css";
-@import "components/status-bar.css";
 @import "variables.css";
-@import "screens/login.css";
+
+/* Components */
+@import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
-@import "screens/friends.css";
 @import "components/user-component.css";
+@import "components/badge.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+
 @font-face {
     font-family: "sf pro";
-    src: url('C:/Users/minse/OneDrive/Desktop/KOKOA-TALK/SF-Pro.ttf') format('truetype');
+    src: url('E:/Github-Desktop/kakao-talk-clone/KOKOA-TALK/SF-Pro.ttf') format('truetype');
 }
 body {
     color: #2e363e;
     font-family: "sf pro";
     height: 1000vh;
+}
+.main-screen {
+    padding:0px var(--horizontal-space);
+    margin-top: 120px;
+
+}
+.alarm-circle {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
 }
