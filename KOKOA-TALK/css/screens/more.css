@@ -1,0 +1,152 @@
+.kokoa-wallet {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.03);
+    transition: 0.3s ease-in-out;
+}
+.kokoa-wallet:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.kokoa-wallet i {
+    margin-left: 15px;
+    font-size: 23px;
+}
+.kokoa-pay-container {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 5px;
+    transition: 0.3s ease-in-out;
+}
+.kokoa-pay-container__column {
+    display: flex;
+}
+.kokoa-pay-container__column:first-child {
+    padding: 7px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 17px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+.kokoa-pay-container__column:first-child:hover {
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+.kokoa-pay-container__column:last-child {
+    margin-right: 20px;
+}
+.kokoa-pay-container__column:last-child span {
+    transition: 0.4s ease-in-out;
+}
+.kokoa-pay-container__column:last-child span:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.kokoa-pay-container__column:last-child span:nth-child(1),
+.kokoa-pay-container__column:last-child span:nth-child(2) {
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 5px 10px;
+}
+.kokoa-pay-container__column:last-child span:last-child {
+    padding: 5px 10px;
+}
+.kokoa-pay-container__icon span {
+    margin-right: 5px;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    top: -2px;
+    left: -3px;
+}
+.more-screen .icon-row {
+    margin-top: 40px;
+}
+.more-suggestions {
+    margin-top: 20px;
+    border-top: var(--main-border);
+    padding-top: 40px;
+}
+.more-suggestions__title {
+    margin-bottom: 30px;
+}
+.more-suggestions__icons {
+    display: flex;
+}
+.more-suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+}
+.more-suggestions__icon-image img {
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.more-suggestions__icon:hover {
+    cursor: pointer;
+    transform:translate(2px, -2px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 10px;
+}
+.more-weather__container {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.more-weather__column:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.more-weather__column:nth-child(2) {
+    position: relative;
+    left: -50px;
+    flex-direction: row;
+    display: flex;
+}
+.more-weather__column:last-child {
+    justify-content: center;
+    align-items: center;
+}
+.more-weather__today__section {
+    padding-top: 20px;
+    font-size: 30px;
+    position: relative;
+    left: -15px;
+}
+.more-weather__today__outlook {
+    padding: 0px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 13px;
+}
+.more-weather__today__outlook-temp {
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+}
+.more-weather__container i {
+    color: whitesmoke;
+    opacity: 0.9;
+}

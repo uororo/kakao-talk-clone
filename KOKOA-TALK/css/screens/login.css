@@ -1,13 +1,16 @@
 @import "css/reset.css";
 @import "components/status-bar.css";
 @import "css/variables.css";
-@font-face {
-    font-family: "sf pro";
-    src: url('C:/Users/minse/OneDrive/Desktop/KOKOA-TALK/SF-Pro.ttf') format('truetype');
+
+.login {
+    background: linear-gradient(225deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 20%, rgba(221,42,123,1) 40%, rgba(245,133,41,1) 60%, rgba(254,218,119,1) 100%);
+    color: white;
 }
-body {
-    font-family: "sf pro";
+.status-bar-login {
+    background-color: white;
+    color: black;
 }
+
 .welcome-header {
     margin-top: 90px;
     text-align: center;
@@ -37,17 +40,20 @@ body {
     margin-bottom: 25px;
 }
 #login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     transition: border-color 0.3s ease-in-out;
+    border-radius: 5px;
 }
 #login-form input::placeholder {
+    padding-left: 15px;
     color: rgba(0, 0, 0, 0.4);
 }
 #login-form input:focus {
-    border-color: var(--yellow);
+    border-color: gray;
 }
 #login-form input[type="submit"] {
-    background-color:var(--yellow);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
